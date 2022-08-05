@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "603841868354",
+    "project_id": "weatherapp-37324",
+    "storage_bucket": "weatherapp-37324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603841868354:android:fac2dee399ce01013433db",
+        "android_client_info": {
+          "package_name": "com.assassino.weatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603841868354-kv896igk8udfn76mjc2tqg019bcfh2l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDczYw40vTFiYFG4wAWMr9bkiv0PUOPYas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603841868354-kv896igk8udfn76mjc2tqg019bcfh2l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

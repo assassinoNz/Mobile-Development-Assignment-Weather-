@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:key="keyCity"
+        app:defaultValue="Colombo"
+        app:title="City"
+        app:useSimpleSummaryProvider="true"/>
+
+    <ListPreference
+        app:defaultValue="metric"
+        app:entries="@array/keyTempUnitEntries"
+        app:entryValues="@array/keyTempUnitValues"
+        app:key="keyTempUnit"
+        app:title="Temperature unit"
+        app:useSimpleSummaryProvider="true" />
+
+    <PreferenceCategory
+        app:title="Login Details">
+        <EditTextPreference
+            app:key="keyEmail"
+            app:defaultValue=""
+            app:title="Email"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            app:key="keyPassword"
+            app:defaultValue=""
+            app:title="Password"
+            app:summary="****" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
